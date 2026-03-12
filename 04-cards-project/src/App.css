@@ -1,0 +1,136 @@
+.app{
+    min-height: 100vh;
+    display: flex;
+    align-items: center;
+    background: #2b2b2b;
+    padding: 30px;
+    flex-wrap: wrap;
+    gap: 40px;
+    width: 100vw;
+}
+
+.cards {
+    width: 300px;
+    height: 330px;
+    border-radius: 30px;
+    background: #fff;
+    box-shadow: 0 8px 24px rgba(15, 23, 42, 0.08);
+    display: flex;
+    flex-direction: column;
+    overflow: hidden;
+}
+
+.top{
+    display: flex;
+    align-items: center;
+    height: 88px;
+    width: 100%;
+    padding: 18px 20px;
+    justify-content: space-between;
+}
+
+.logo{
+    width: 44px;
+    height: 44px;
+    object-fit: cover;
+    border-radius: 50%;
+    border: 1px solid #eee;
+    background: #fff;
+}
+
+.save {
+    border: 1px solid #E6E6E6;
+    padding: 2px 10px;
+    border-radius: 8px;
+    color: #6b7280;
+    font-weight: 600;
+    background: #fafafa;
+    cursor: pointer;
+}
+
+.middle{
+    padding: 12px 22px;
+    flex: 1 1 auto;
+}
+
+.companyContaiiner{
+    display: flex;
+    align-items: baseline;
+    gap: 8px;
+   
+}
+
+.companyContaiiner h3{
+    margin: 0;
+    font-size: 14px;
+    color: #111827;
+     font-weight: 600;
+}
+
+.days{
+    font-size: 12px;
+    color: #9CA3AF;
+}
+
+.profileName{
+    margin: 0px 0 12px 0;
+    font-size: 18px;
+    color: #111827;
+     font-weight: 600;
+}
+
+.typeContainer{
+    display: flex;
+    gap: 10px;
+}
+
+.type{
+    display: inline-block;
+    background: #F3F4F6;
+    color: #374151;
+    padding: 6px 10px;
+    border-radius: 5px;
+    font-size: 12px;
+}
+
+.divider{
+    height: 1px;
+    background: #F3F4F6;
+    margin: 0 18px;
+}
+
+.bottom{
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    padding: 16px 20px;
+}
+
+.price{
+    display: flex;
+    flex-direction: column;
+}
+
+.amount{
+    font-weight: 700;
+    font-size: 16px;
+}
+
+.location{
+    font-size: 12px;
+    color: #9CA3AF;
+}
+
+.apply{
+    background: #111827;
+    color: #fff;
+    border: none;
+    padding: 10px 14px;
+    border-radius: 10px;
+    cursor: pointer;
+    font-weight: 600;
+}
+
+.apply:hover{
+    transform: translateY(-1px);
+}
