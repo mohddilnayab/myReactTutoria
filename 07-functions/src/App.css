@@ -1,0 +1,12 @@
+.widthHeight{
+  width: 300px;
+  height: 70px;
+
+}
+
+.widthHeight500{
+  width: 500px;
+  height: 500px;
+  background-color: red;
+  
+}
